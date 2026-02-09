@@ -20,7 +20,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 55px 1fr;
+  grid-template-columns: 3.4375rem 1fr;
   height: 100%;
 }
 
@@ -36,8 +36,8 @@ body {
 
 .sidebar__logo {
   margin: 0;
-  margin-top: 15px;
-  font-size: 16px;
+  margin-top: 0.9375rem;
+  font-size: 1rem;
 }
 
 .sidebar__list {
@@ -47,19 +47,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .sidebar__list:first-of-type {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .sidebar__list:last-of-type {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .sidebar__item img {
-  width: 18px;
+  width: 1.125rem;
 }
 
 .main {
@@ -72,51 +72,51 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 0.9375rem;
 }
 
 .search-box > input {
   outline: none;
   border: 1px #ccc solid;
   border-radius: 10px;
-  height: 35px;
-  padding-left: 35px;
-  background: url("../img/magnify.svg") no-repeat 10px center;
-  background-size: 18px;
+  height: 2.1875rem;
+  padding-left: 2.1875rem;
+  background: url("../img/magnify.svg") no-repeat 0.625rem center;
+  background-size: 1.125rem;
 }
 
 .profile-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .profile-container > img:first-child {
-  width: 25px;
+  width: 1.5625rem;
 }
 
 .profile-container > img:last-child {
-  width: 40px;
+  width: 2.5rem;
 }
 
 .projects {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .large-grid {
   display: grid;
-  gap: 30px;
+  gap: 1.875rem;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
 }
 
 .large-grid > .card {
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9375rem;
   background-color: var(--bg-primary);
   border-radius: 10px;
   border-left: 6px solid #26a584;
-  height: 200px;
+  height: 12.5rem;
   position: relative;
 }
 
@@ -126,35 +126,35 @@ body {
 
 .card__icons {
   position: absolute;
-  right: 40px;
-  bottom: 10px;
+  right: 2.5rem;
+  bottom: 0.625rem;
 }
 
 .card__icons > img {
-  width: 20px;
-  gap: 2px;
+  width: 1.25rem;
+  gap: 0.125rem;
 }
 
 .announcements {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .small-grid {
 }
 
 .small-grid > .card {
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9375rem;
   background-color: var(--bg-primary);
   border-radius: 10px;
 }
 
 .small-grid > .card > p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
 }
 
 .trending {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .trending__card {
@@ -163,8 +163,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 30px 10px;
-  gap: 40px;
+  padding: 1.875rem 0.625rem;
+  gap: 2.5rem;
 
   justify-items: center;
 }
@@ -174,18 +174,18 @@ body {
 }
 
 .trending__topic > img {
-  width: 60px;
+  width: 3.75rem;
 }
 
 .trending__desc {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  gap: 5px;
+  margin-left: 1.25rem;
+  gap: 0.3125rem;
 }
 
 .trending__desc > span:first-of-type {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #4f86c6;
 }
 
