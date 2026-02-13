@@ -77,7 +77,7 @@ body {
 
 .nav__item > span {
   display: none;
-  width: clamp(.875rem, 1vw, 1.875rem);
+  width: clamp(0.875rem, 1vw, 1.875rem);
 }
 
 .main {
@@ -90,7 +90,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 0.9375rem clamp(0.9375rem, 3vw, 5rem);
 }
 
 .search-box > input {
@@ -121,6 +121,10 @@ body {
   margin: 1.25rem;
 }
 
+.projects > h2 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
 .project__cards {
   display: grid;
   gap: 1.875rem;
@@ -128,7 +132,7 @@ body {
 }
 
 .project__card {
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9375rem;
   background-color: var(--bg-primary);
   border-radius: 10px;
   border-left: 6px solid #26a584;
@@ -168,8 +172,12 @@ body {
   margin: 1.25rem;
 }
 
+.announcements > h2 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
 .announcement__cards {
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9375rem;
   background-color: var(--bg-primary);
   border-radius: 10px;
   box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.05);
@@ -179,19 +187,28 @@ body {
   background-color: var(--bg-primary);
 }
 
+.announcement__card > h4 {
+  font-size: clamp(0.9375rem, 3vw, 1.125rem);
+}
+
 .announcement__card > p {
   color: var(--text-secondary);
+  font-size: clamp(0.9375rem, 3vw, 1.0625rem);
 }
 
 .trending {
   margin: 1.25rem;
 }
 
+.trending > h2 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
 .trending__card {
   box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.05);
   background-color: var(--bg-primary);
   border-radius: 10px;
-  padding: 15px;
+  padding: 0.9375rem;
   gap: 1.875rem;
   display: flex;
   flex-direction: column;
@@ -228,7 +245,7 @@ body {
   }
 
   .sidebar {
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   .nav {
